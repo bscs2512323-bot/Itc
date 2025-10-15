@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Introduction</h1>
+        <p>These are just some words to fill a div element,so that its layout becomes real and not abstract anymore</p>
+    </div>
+
+    <div class="row">
+        <div class="Column left">
+            <h3>Left Column</h3>
+            <p>These are just some words to fill a div element,so that its layout becomes real and not abstract anymore</p>
+        </div>
+
+        <div class=" Column Center">
+            <h3>Center Column</h3>
+            <p>These are just some words to fill a div element,so that its layout becomes real and not abstract anymore</p>
+        </div>
+
+        <div class=" Column Right">
+            <h3>Right Column</h3>
+            <p>These are just some words to fill a div element,so that its layout becomes real and not abstract anymore</p>
+        </div>
+
+    </div>
+    
+</body>
+
+
+<style>
+    .header{
+        background-color: black;
+        color: white;
+         
+        
+    }
+    
+
+    .row{
+        display: flex;
+    }
+
+    .column{
+        flex: 1;
+        padding: 20px;
+    }
+
+    .left{
+        background-color: pink;
+    }
+
+    .Center{
+        background-color: darkgreen;
+    }
+
+    .Right{
+        background-color: purple;
+    }
+</style>
+</html>
